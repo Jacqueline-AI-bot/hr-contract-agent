@@ -1,3 +1,7 @@
+## Demo Video
+
+[HR Demo Video ansehen](https://github.com/Jacqueline-AI-bot/hr-contract-agent/blob/main/hr-contract-agent.mp4)
+
 # HR Contract Agent
 
 AI-gestützter MVP zur Unterstützung von HR-, Vertrags- und Freigabeprozessen.
