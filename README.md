@@ -1,44 +1,49 @@
-# HR Contract Module Agent v2
+# HR Contract Agent
 
-Stabilerer Mini-MVP für HR-lastiges Vertragsmanagement.
+AI-gestützter MVP zur Unterstützung von HR-, Vertrags- und Freigabeprozessen.
 
-## Fokus
+## Overview
 
-Dieses Tool erstellt keine finale Rechtsberatung, sondern strukturierte interne Entwürfe für HR und Legal.
+Dieses Projekt zeigt beispielhaft, wie KI genutzt werden kann, um wiederkehrende HR- und Vertragsprozesse strukturiert vorzubereiten und operative Teams im Alltag zu entlasten.
 
-Es zeigt:
-- Textbausteine je Thema
-- Fachbereichslogik
-- Corporate Header und Footer
-- Fallanalyse
-- fehlende Informationen
-- HR-/Legal-Checkliste
-- Vertrags-/HR-Entwurf
+Der Fokus liegt nicht auf finaler Rechtsberatung, sondern auf:
+- schneller Vorstrukturierung von Fällen
+- intelligenten Textbausteinen
+- Risiko- und Vollständigkeitsprüfungen
+- internen Enablement-Workflows
+
+## Features
+
+- Fachbereichslogik für HR, Legal & Operations
+- Dynamische Textbausteine
+- Corporate Header & Footer
+- Fallanalyse & Risiko-Level
+- Erkennung fehlender Informationen
+- HR-/Legal-Checklisten
+- Strukturierte Vertragsentwürfe
 - JSON Export
+- Streamlit Frontend
 
-## Start
+## Tech Stack
 
-```bash
-pip3 install -r requirements.txt
-streamlit run app.py
-```
+- Python
+- Streamlit
+- OpenAI API
+- JSON
 
-## Wichtige Verbesserung gegenüber v1
+## Run locally
 
-Die Ausgabe ist stärker strukturiert:
-1. Fallanalyse
-2. erkannte Themen
-3. fehlende Informationen
-4. Fachbereichliche Hinweise
-5. verwendete Textbausteine
-6. Vertrags-/HR-Entwurf
-7. HR-/Legal-Checkliste
-8. nächste Schritte
+bash pip3 install -r requirements.txt streamlit run app.py 
 
-## Weiterentwicklung
+## MVP Purpose
 
-- echte HR-Datenbank anbinden
-- Textbausteine versionieren
-- Export als DOCX/PDF
-- Freigabeprozess mit HR/Legal
-- Rollen- und Berechtigungskonzept
+Der Prototyp demonstriert, wie ein AI Enablement Team interne Prozesse schneller analysierbar und skalierbarer machen kann — insbesondere in Bereichen mit hohem Dokumentations- und Abstimmungsaufwand.
+
+## Possible Next Steps
+
+- Integration echter HR-Wissensdatenbanken
+- Rollen- und Berechtigungskonzepte
+- DOCX/PDF Export
+- Freigabe-Workflows
+- Versionierung von Textbausteinen
+- Audit- und Compliance-Logs
