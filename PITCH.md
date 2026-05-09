@@ -1,7 +1,20 @@
-# Kurzbeschreibung
+# Why I built this
 
-Der HR Contract Module Agent v2 zeigt, wie ein AI Enablement Team einen HR-Prozess schnell in einen nutzbaren Prototyp übersetzen kann.
+Viele HR- und vertragsbezogene Prozesse bestehen noch immer aus wiederkehrender manueller Arbeit, fragmentiertem Wissen und ständig gleichen Textbausteinen.
 
-Der Agent erkennt Themen wie Remote Work, Arbeitszeit, Vergütung, Datenschutz oder Vertragsverlängerung, zieht passende Textbausteine, ergänzt Corporate Header/Footer und erstellt daraus einen prüfbaren internen Vertragsentwurf.
+Dieses MVP zeigt, wie KI HR- und Legal-Teams dabei unterstützen kann:
+- eingehende Anfragen zu strukturieren
+- fehlende Informationen früh zu erkennen
+- passende Vertragsmodule vorzuschlagen
+- potenzielle Risiken sichtbar zu machen
+- CI-konforme Dokumententwürfe zu erstellen
 
-Wichtig: Das Tool ersetzt keine HR-/Legal-Freigabe, sondern beschleunigt die Vorbereitung und erhöht die Qualität der Vorarbeit.
+Der Fokus lag dabei bewusst nicht auf einem „perfekten KI-System“, sondern auf der schnellen Übersetzung eines realen Prozessproblems in einen praktischen und testbaren Prototyp.
+
+Mich interessiert an KI vor allem nicht nur die Technologie selbst, sondern die Frage, wie daraus sinnvolle Workflows, interne Tools und echte operative Entlastung entstehen können.
+
+Built with:
+- Python
+- Streamlit
+- OpenAI API
+- strukturierte Prompt-Workflows
